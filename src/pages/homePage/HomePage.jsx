@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -35,7 +36,7 @@ function HomePage() {
             </form>
             <div class='social-login'>
               <h5>Not Registered?</h5>
-              <a href='/signup/'>Signup Here</a>
+              <Link to='/register'>Signup Here</Link>
             </div>
           </div>
           <div class='screen__background'>
